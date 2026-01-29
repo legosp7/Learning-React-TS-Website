@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import Navigation from "@/components/Navigation";
 
 const inter = Inter({ 
   subsets: ["latin"], variable: "--font-inter",
@@ -35,6 +36,7 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+        <Navigation />
         {children}
         </ThemeProvider>
 
