@@ -20,7 +20,7 @@ export default function FeaturedSection() {
             </motion.div>
             <div className="grid md:grid-cols-2 gap-8">
                 {posts.map((post, index) => (
-                    <motion.div>
+                    <motion.div key={index}>
                         <Card className="group cursor-pointer overflow-hidden 
                         hover:shadow-xl transition-all duration-300 border-0 bg-card/50 backdrop-blur-xs py-0">
                             <CardHeader>

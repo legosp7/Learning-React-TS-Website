@@ -8,7 +8,7 @@ export const featuredPosts = [
         excerpt: "Exploring the principles of minimalist design in modern web development.",
         category: "Design",
         date: "Dec 15, 2024",
-        image: "components/images/ebdtvj519fag1.jpeg",
+        image: "/images/wei.jpeg",
 
     },
     {
@@ -17,7 +17,7 @@ export const featuredPosts = [
         excerpt: "Exploring the principles of minimalist design in modern web development.",
         category: "Design",
         date: "Dec 18, 2024",
-        image: "components/images/ebdtvj519fag1.jpeg",
+        image: "/images/wei.jpeg",
     },
     {
         id: "3",
@@ -25,7 +25,7 @@ export const featuredPosts = [
         excerpt: "Exploring the principles of minimalist design in modern web development.",
         category: "Design",
         date: "Dec 18, 2024",
-        image: "components/images/ebdtvj519fag1.jpeg",
+        image: "/images/wei.jpeg",
 
     },
     {
@@ -34,6 +34,6 @@ export const featuredPosts = [
         excerpt: "Not Exploring the principles of minimalist design in modern web development.",
         category: "Design",
         date: "Dec 15, 2024",
-        image: "components/images/ebdtvj519fag1.jpeg",
+        image: "/images/wei.jpeg",
     }
 ]
